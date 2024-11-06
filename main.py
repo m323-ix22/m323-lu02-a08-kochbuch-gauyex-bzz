@@ -21,9 +21,9 @@ def adjust_recipe(recipe_, num_people):
     adjusted_ingredients = {ingredient: int(quantity * factor) for ingredient, quantity in
                             recipe_['ingredients'].items()}
     return {
-        "title": recipe_['title'],
-        "ingredients": adjusted_ingredients,
-        "servings": num_people
+        'title': recipe_['title'],
+        'ingredients': adjusted_ingredients,
+        'servings': num_people
     }
 
 
